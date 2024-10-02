@@ -2,7 +2,6 @@ package com.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         Cestino c1 = new Cestino(0);
         Deposito d1 = new Deposito(c1, 1000);
         Deposito d2 = new Deposito(c1, 1000);

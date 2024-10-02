@@ -12,9 +12,8 @@ public class Cestino {
         this.valore = valore;
     }
 
-    public void incrementa() {
+    synchronized public void incrementa() {
         valore++;
-        System.out.println("test");
     }
     
 }
